@@ -4,7 +4,11 @@ const Header = () => {
   return (
     <header className="header" id="home">
       <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
-        <img src="/achrafahsaine.github.io/ana.jpeg" alt="Achraf" />
+        <img 
+          src="/achrafahsaine.github.io/ana.jpeg"
+          alt="Achraf"
+          className="profile-image"
+        />
         <h1 className="text-gradient">Achraf AHSAINE</h1>
         <h2>Software Engineering Student & Developer</h2>
         
